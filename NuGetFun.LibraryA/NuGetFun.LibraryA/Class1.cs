@@ -8,5 +8,9 @@ namespace NuGetFun.LibraryA
 {
     public class Class1
     {
+        public string SayHi(string name)
+        {
+            return string.Format("Hello {0}.", name);
+        }
     }
 }
